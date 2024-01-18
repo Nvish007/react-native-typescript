@@ -1,7 +1,7 @@
 import {createAsyncThunk} from '@reduxjs/toolkit';
 import httpService from '@utils/httpService';
 
-export const login: any = createAsyncThunk<any>(
+export const handleLogin: any = createAsyncThunk<any>(
   'login',
   async (data, {rejectWithValue}) => {
     try {
