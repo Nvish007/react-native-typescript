@@ -20,12 +20,11 @@
     "isolatedModules": true,
     "baseUrl": "./src",
     "paths": {
-      "@components/*": ["./components/*"],
-      "@navigations/*": ["./navigations/*"],
-      "@redux/*": ["./redux/*"],
-      "@screens/*": ["./screens/*"],
-      "@styles/*": ["./styles/*"],
-      "@utils/*": ["./utils/*"],
+      "@components/*": ["components/*"],
+      "@navigations/*": ["navigations/*"],
+      "@redux/*": ["redux/*"],
+      "@screens/*": ["screens/*"],
+      "@utils/*": ["utils/*"],
       "*": ["types/*"]
     },
     "types": ["react", "react-native", "@types/jest", "jest"]

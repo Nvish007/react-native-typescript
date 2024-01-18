@@ -1,19 +1,19 @@
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import Home from '../../screens/home';
+import Login from '@screens/login';
 
 type AppStackParamList = {
-  Home: undefined;
+  Login: undefined;
 };
 
 const Stack = createNativeStackNavigator<AppStackParamList>();
 
-const AppStack: React.FC = () => {
+const AuthStack = () => {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="Home" component={Home} />
+      <Stack.Screen name="Login" component={Login} />
     </Stack.Navigator>
   );
 };
 
-export default AppStack;
+export default AuthStack;

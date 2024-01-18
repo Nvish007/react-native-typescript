@@ -3,8 +3,8 @@ import {NavigationContainer} from '@react-navigation/native';
 import AuthStack from './AuthStack';
 import AppStack from './AppStack';
 
-const RootNavigator = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+const RootNavigator: React.FC = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
 
   useEffect(() => {
     setTimeout(() => {
